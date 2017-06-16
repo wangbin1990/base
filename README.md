@@ -1,2 +1,2 @@
-# base
-base php
+# yii-base
+yii base 

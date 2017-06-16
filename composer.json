@@ -1,0 +1,27 @@
+{
+    "name": "wangb/yii-base",
+    "description": "yii2",
+    "autoload": {
+        "psr-4": {
+            "wangb\\": "./",
+            "xlogger\\": "mq/v1.4-beta/xlogger"
+        },
+        "classmap": ["mq/v1.4-beta/XcmqClient.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ego\\tests\\": "tests/",
+            "app\\": "tests/app/"
+        }
+    },
+    "require": {
+        "yiisoft/yii2": ">=2.0.11",
+        "yiisoft/yii2-redis": ">=2.0.6",
+        "yiisoft/yii2-debug": ">=2.0.9",
+        "guzzlehttp/guzzle": ">=6.2.3"
+    },
+    "require-dev": {
+        "yiisoft/yii2-smarty": ">=2.0.5",
+        "yiisoft/yii2-swiftmailer": ">=2.0.6"
+    }
+}
