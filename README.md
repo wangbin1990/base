@@ -1,2 +1,3 @@
 # yii-base
-yii base 
+~ yii base 
+~ base
